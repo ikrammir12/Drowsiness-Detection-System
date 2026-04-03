@@ -1,4 +1,6 @@
-# Python
+# =========================
+# 🔹 Python
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,20 +9,73 @@ __pycache__/
 env/
 venv/
 .venv/
+
+# Packaging
 *.egg-info/
 dist/
 build/
+.eggs/
+*.egg
 
-# Project runtime files
+# =========================
+# 🔹 Virtual Environment
+# =========================
+.env
+.env.*
+.venv/
+venv/
+
+# =========================
+# 🔹 Logs & Runtime Files
+# =========================
 logs/
-screenshots/
-assets/*.wav
+*.log
 
-# IDE
+# =========================
+# 🔹 Data & Large Files
+# =========================
+assets/*.wav
+assets/*.mp4
+assets/*.avi
+assets/*.h5
+assets/*.pt
+assets/*.pth
+assets/*.pkl
+
+# =========================
+# 🔹 Screenshots (optional)
+# =========================
+screenshots/
+# (keep only important images manually if needed)
+
+# =========================
+# 🔹 Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🔹 IDE / Editor
+# =========================
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# OS
+# =========================
+# 🔹 OS Files
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# 🔹 Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# 🔹 Misc
+# =========================
+*.sqlite3
+*.db

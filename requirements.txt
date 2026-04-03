@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────────
+# Driver Drowsiness Detection System — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# Core computer vision
+opencv-python>=4.8.0
+
+# Face landmark detection (MediaPipe by Google)
+mediapipe>=0.10.0
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Audio playback (optional — falls back to winsound/beep if absent)
+pygame>=2.5.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
